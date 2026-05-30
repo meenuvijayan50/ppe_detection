@@ -180,15 +180,15 @@ ppe_input.mp4
 
 # Performance Benchmark
 
-| Metric | FP32 (.pt) | ONNX FP16 |
-|---|---:|---:|
-| Model Size | XX MB | XX MB |
-| mAP50-95 | XX | XX |
-| FPS | XX | XX |
-| Preprocess Latency | XX ms | XX ms |
-| Postprocess Latency | XX ms | XX ms |
+## Performance Benchmark
 
-> Replace XX with measured values.
+| Metric | FP32 Baseline (`best.pt`) | ONNX FP16 (`best.onnx`) | Difference |
+|---|---:|---:|---:|
+| Model Size (MB) | **5.96 MB** | **5.89 MB** | ↓ 0.07 MB |
+| mAP50-95 | **0.1227** | **0.1164** | ↓ 0.0063 |
+| mAP50 | **0.2322** | **0.2176** | ↓ 0.0146 |
+
+
 
 ---
 
