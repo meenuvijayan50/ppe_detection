@@ -219,16 +219,7 @@ ONNX weights: [https://drive.google.com/...](https://drive.google.com/file/d/1Ju
 
 ---
 
-# Demo Video
 
-2–3 minute demo:
-
-Include:
-
-- running live_inference.py
-- metrics on screen
-- explain FP16 choice
-- compare speed vs accuracy
 
 
 # Summary
