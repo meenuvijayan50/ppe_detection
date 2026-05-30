@@ -1,0 +1,6 @@
+train: /content/drive/MyDrive/Colab Notebooks/PPE/dataset/train
+val: /content/drive/MyDrive/Colab Notebooks/PPE/dataset/valid/images
+test: /content/drive/MyDrive/Colab Notebooks/PPE/dataset/test/images
+
+nc: 9
+names: ['Jacket','hard_hat','Gloves','Shoes','Hard_hat_required','Shoes_required','Jacket_required','Gloves_required','crane']
